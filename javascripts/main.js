@@ -84,20 +84,20 @@ $(document).ready(function(){
 // bar(); //window & global warming
 
 //Example 5:
-function foo(){
-	console.log("this", this); //window
-	console.log("a", this.a); //global
-}
+// function foo(){
+// 	console.log("this", this); //window
+// 	console.log("a", this.a); //global
+// }
 
-functiondoFoo(fn){
-	return fn();
-}
+// functiondoFoo(fn){
+// 	return fn();
+// }
 
-var obj = {
-	a: 2,
-	foo: foo
-};
+// var obj = {
+// 	a: 2,
+// 	foo: foo
+// };
 
-var a = "global";
+// var a = "global";
 
-doFoo(obj.foo);
+// doFoo(obj.foo);
